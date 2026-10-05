@@ -1,0 +1,442 @@
+[04:55:51] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-1-24.04.4-Ubuntu; Ubuntu null) on Linux 6.8.0-1064-azure (amd64)
+[04:55:51] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-121-main@a2a42c5 (2026-08-29T11:32:25Z) for Minecraft 26.2
+[04:55:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:55:51] [ServerMain/INFO]: [xyz.atrius.waystones.WaystonesLoader] Resolving external dependencies, this could take a bit...
+[04:55:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 18 plugins
+[04:55:52] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+ - ByteClans (1.14.5), Waystones (2.4.0)
+[04:55:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
+ - BlockShips (0.0.17), CarryOnPaper (1.0.1), ChestLockLite (1.2.0), DrugsV2 (2.1), Geyser-Spigot (2.11.3-SNAPSHOT), GravesX (2026.4.9.2), Hammer (1.0.0), LuckPerms (5.5.85), PlaceholderAPI (2.12.3), SkinsRestorer (15.12.6), TAB (6.2.0), Timber (1.8.6), ViaBackwards (5.12.0), ViaVersion (5.12.0), floodgate (2.2.5-SNAPSHOT (b141-81b65cc)), yourShikaBackpacks (1.3.2)
+[04:55:56] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[04:55:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:55:57] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 779.2ms
+[04:55:57] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
+com.google.gson.JsonParseException: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-10.0.21.jar:?]
+	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:38) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.AbstractPackResources.getMetadataSection(AbstractPackResources.java:24) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.repository.Pack.readPackMetadata(Pack.java:51) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.repository.Pack.readMetaAndCreate(Pack.java:32) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.repository.FolderRepositorySource.lambda$loadPacks$0(FolderRepositorySource.java:54) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.repository.FolderRepositorySource.discoverPacks(FolderRepositorySource.java:80) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.repository.FolderRepositorySource.loadPacks(FolderRepositorySource.java:52) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.repository.PackRepository.discoverAvailable(PackRepository.java:52) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:44) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.MinecraftServer.configurePackRepository(MinecraftServer.java:2362) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:107) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at net.minecraft.util.Util.blockUntilDone(Util.java:1140) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.util.Util.blockUntilDone(Util.java:1129) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.Main.main(Main.java:242) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:25) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[04:55:59] [ServerMain/INFO]: Loaded 1585 recipes
+[04:55:59] [ServerMain/INFO]: Loaded 1728 advancements
+[04:56:01] [Server thread/INFO]: Starting minecraft server version 26.2
+[04:56:01] [Server thread/INFO]: Loading properties
+[04:56:01] [Server thread/INFO]: This server is running Paper version 26.2-121-main@a2a42c5 (2026-08-29T11:32:25Z) (Implementing API version 26.2.build.121-stable)
+[04:56:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:56:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:56:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:56:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:56:02] [Server thread/INFO]: Default game type: SURVIVAL
+[04:56:02] [Server thread/INFO]: Generating keypair
+[04:56:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:56:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:56:02] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[04:56:03] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b141-81b65cc)
+[04:56:03] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:56:03] [Server thread/INFO]: [floodgate] Took 573ms to boot Floodgate
+[04:56:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.0
+[04:56:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.0 is now loaded. Registering protocol transformers and injecting...
+[04:56:04] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[04:56:04] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[04:56:04] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[04:56:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.3-SNAPSHOT
+[04:56:05] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:56:05] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:56:05] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.85
+[04:56:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:56:05] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.0
+[04:56:05] [Server thread/INFO]: [ByteClans] Loading server plugin ByteClans v1.14.5
+[04:56:05] [Server thread/INFO]: [ByteClans] PaperPlugin is loading...
+[04:56:05] [Server thread/INFO]: [ByteClans] PaperPlugin has been loaded!
+[04:56:05] [Server thread/INFO]: [CarryOnPaper] Loading server plugin CarryOnPaper v1.0.1
+[04:56:05] [Server thread/INFO]: [GravesX] Loading server plugin GravesX v2026.4.9.2
+[04:56:05] [Server thread/INFO]: [GravesX] [Modules] No module jars found in plugins/GravesX/modules
+[04:56:05] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.2.0
+[04:56:05] [Server thread/INFO]: [ChestLockLite] Loading server plugin ChestLockLite v1.2.0
+[04:56:05] [Server thread/INFO]: [Timber] Loading server plugin Timber v1.8.6
+[04:56:05] [Server thread/INFO]: [yourShikaBackpacks] Loading server plugin yourShikaBackpacks v1.3.2
+[04:56:05] [Server thread/INFO]: [DrugsV2] Loading server plugin DrugsV2 v2.1
+[04:56:05] [Server thread/INFO]: [BlockShips] Loading server plugin BlockShips v0.0.17
+[04:56:05] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.6
+[04:56:05] [Server thread/INFO]: [Waystones] Loading server plugin Waystones v2.4.0
+[04:56:05] [Server thread/INFO]: [Hammer] Loading server plugin Hammer v1.0.0
+[04:56:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.85
+[04:56:06] [Server thread/INFO]:         __    
+[04:56:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.85
+[04:56:06] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:56:06] [Server thread/INFO]: 
+[04:56:06] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:56:06] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:56:06] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:56:06] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1102ms)
+[04:56:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.6
+[04:56:07] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
+[04:56:07] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[04:56:08] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:56:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.6]
+[04:56:08] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[04:56:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:56:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:56:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:56:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:56:08] [Server thread/INFO]: Preparing level "world"
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.6
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: c8c321f
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:56:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[04:56:08] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[04:56:08] [Server thread/INFO]: Preparing spawn area: 100%
+[04:56:08] [Server thread/INFO]: Prepared spawn area in 11 ms
+[04:56:08] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[04:56:08] [Server thread/INFO]: Prepared spawn area in 1 ms
+[04:56:08] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[04:56:08] [Server thread/INFO]: Prepared spawn area in 0 ms
+[04:56:08] [Server thread/INFO]: Done preparing level "world" (0.583s)
+[04:56:08] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b141-81b65cc)
+[04:56:09] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.0
+[04:56:09] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[04:56:09] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[04:56:09] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[04:56:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.3-SNAPSHOT
+[04:56:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.0
+[04:56:10] [Server thread/INFO]: [ByteClans] Enabling ByteClans v1.14.5
+[04:56:10] [Server thread/INFO]: [ByteClans] PaperPlugin is starting...
+[04:56:10] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ByteClans-H2Pool - Starting...
+[04:56:11] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] ByteClans-H2Pool - Added connection conn0: url=jdbc:h2:file:/workspaces/Server/servidor_minecraft/plugins/ByteClans/storage/data user=
+[04:56:11] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ByteClans-H2Pool - Start completed.
+[04:56:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: byteclans [1.14.5]
+[04:56:11] [Server thread/INFO]: [ByteClans] [PlaceholderAPI] Placeholders registered.
+[04:56:11] [Server thread/WARN]: [ByteClans] No extensions found in /workspaces/Server/servidor_minecraft/plugins/ByteClans/extensions
+[04:56:11] [Server thread/INFO]: [ByteClans] PaperPlugin has been enabled!
+[04:56:11] [Server thread/INFO]: [CarryOnPaper] Enabling CarryOnPaper v1.0.1
+[04:56:11] [Server thread/INFO]: [GravesX] Enabling GravesX v2026.4.9.2
+[04:56:11] [Server thread/INFO]: [GravesX] Loading Libraries for GravesX
+[04:56:11] [Server thread/WARN]: [GravesX] Paper v.26.2-121-a2a42c5 (MC: 26.2) detected. Using BukkitLibraryManager to download and load libraries.
+[04:56:12] [Server thread/INFO]: [GravesX] Finished Loading Libraries for GravesX.
+[04:56:12] [Server thread/INFO]: [GravesX] Integration: Hooked into MiniMessage.
+[04:56:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gravesx [2026.4.9.2]
+[04:56:12] [Server thread/INFO]: [GravesX] Integration: Hooked into PlaceholderAPI 2.12.3.
+[04:56:12] [Server thread/WARN]: [GravesX] Compatibility: Paper or a Paper fork detected. To ensure holograms disappear correctly when looting graves, make sure 'armor-stands-tick' or 'armor-stands.tick' is set to true. This is not a bug.
+[04:56:12] [Server thread/INFO]: [GravesX] Integration: Hooked into LuckPerms 5.5.85.
+[04:56:12] [Server thread/INFO]: [GravesX] Integration: Hooked into Geyser-Spigot 2.11.3-SNAPSHOT.
+[04:56:12] [Server thread/INFO]: [GravesX] Integration: Hooked into floodgate 2.2.5-SNAPSHOT (b141-81b65cc).
+[04:56:12] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] GravesX h2 - Starting...
+[04:56:13] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.pool.HikariPool] GravesX h2 - Added connection conn0: url=jdbc:h2:file:/workspaces/Server/servidor_minecraft/plugins/GravesX/data/graves.data user=SA
+[04:56:13] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] GravesX h2 - Start completed.
+[04:56:13] [Server thread/INFO]: [GravesX] [Modules] Loading GravesX Modules...
+[04:56:13] [Server thread/INFO]: [GravesX] [Modules] Detected 0 module(s).
+[04:56:13] [Folia Async Scheduler Thread #2/INFO]: [GravesX] Loading grave maps...
+[04:56:13] [Folia Async Scheduler Thread #2/INFO]: [GravesX] Loaded 6 grave maps into cache.
+[04:56:13] [Folia Async Scheduler Thread #3/INFO]: [GravesX] Loading Block Map cache...
+[04:56:13] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loading Entity Map Cache for itemframe...
+[04:56:13] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for itemframe.
+[04:56:13] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loading Holograms into Hologram Map Cache...
+[04:56:13] [Folia Async Scheduler Thread #1/INFO]: [GravesX] Loading Entity Map Cache for armorstand...
+[04:56:13] [Folia Async Scheduler Thread #1/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for armorstand.
+[04:56:13] [Folia Async Scheduler Thread #3/INFO]: [GravesX] Queued 45 Blocks into the Block Map Cache (batched by chunk).
+[04:56:13] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loaded 6 Holograms into Hologram Map Cache.
+[04:56:13] [Server thread/INFO]: [GravesX] Loading bStats Metrics Manager...
+[04:56:13] [Server thread/INFO]: [GravesX] bStats metrics loaded: https://bstats.org/plugin/bukkit/GravesX/23069
+[04:56:13] [Server thread/INFO]: [GravesX] bStats legacy metrics loaded: https://bstats.org/plugin/bukkit/Graves/12849
+[04:56:13] [Server thread/INFO]: [TAB] Enabling TAB v6.2.0
+[04:56:13] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_26_2.NMSImplementationProvider
+[04:56:13] [Server thread/INFO]: [TAB] Enabled in 208ms
+[04:56:13] [Server thread/INFO]: [ChestLockLite] Enabling ChestLockLite v1.2.0
+[04:56:13] [Server thread/INFO]: [ChestLockLite] Database connected: /workspaces/Server/servidor_minecraft/plugins/ChestLockLite/locks.db
+[04:56:13] [Server thread/INFO]: [ChestLockLite] ChestLockLite has been enabled!
+[04:56:13] [Server thread/INFO]: [ChestLockLite] Database initialized successfully!
+[04:56:13] [Server thread/INFO]: [Timber] Enabling Timber v1.8.6
+[04:56:14] [Server thread/WARN]: LogBlock isn't injected! 
+[04:56:14] [Server thread/WARN]: Install the plugin to improve tree detection 
+[04:56:14] [Server thread/WARN]: Download link: https://www.curseforge.com/minecraft/bukkit-plugins/logblocks 
+[04:56:14] [Server thread/INFO]: [Timber] Plugin PlaceholderAPI injected
+[04:56:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: timber [26.2-121-a2a42c5 (MC: 26.2)]
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Enabling yourShikaBackpacks v1.3.2
+[04:56:14] [Server thread/WARN]: [yourShikaBackpacks] Auto-Recovery: Unsauberer Shutdown erkannt – offene Backpacks wurden bis zum letzten Speichern wiederhergestellt.
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Backpack-Tiers geladen: 7
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] SQLite-Speicher initialisiert (backpacks.db).
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Backpack-Cache aktiv (6 bekannt, Flush alle 5s).
+[04:56:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ysbp [1.3.2]
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Hook aktiv: PlaceholderAPI
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Aktive Hooks: 1/2
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Crafting-Rezepte registriert: 1
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Upgrade-Rezepte registriert: 13
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] Funktions-Upgrade-Rezepte registriert: 19
+[04:56:14] [Server thread/INFO]: [yourShikaBackpacks] yourShika Backpack's v1.3.2 aktiviert (Paper 26.1.2–26.2 / Java 25).
+[04:56:14] [Server thread/INFO]: [DrugsV2] Enabling DrugsV2 v2.1
+[04:56:14] [Server thread/INFO]: [DrugsV2] Performance optimizer initialized
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement settings. System enabled: true
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement: first-dose (first_drug_use)
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement: connoisseur (all_drugs_used)
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement: risky (use_at_max)
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement: maxed-three (maxed_three)
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement: clean-slate (decay_full)
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement: overdose_death (overdose_death)
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded achievement: overdose_survive (overdose_survive)
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded 7 achievements
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded overdose effects configuration. Enabled: true
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded 101 cannabis strains
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: heroin
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: heroin
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: heroin
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: heroin
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: fent
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: fent
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: fent
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: fent
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: shrooms
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: shrooms
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: shrooms
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: shrooms
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: meth
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: meth
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: meth
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: meth
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: blunt
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: blunt
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: blunt
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: blunt
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: cocaine
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: cocaine
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: cocaine
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: cocaine
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: joint
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: joint
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: joint
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: joint
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: cart
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: cart
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: cart
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: cart
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: edible
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: edible
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: edible
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: edible
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: glue
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: glue
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: glue
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: glue
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loading drug config: molly
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registered drug: molly
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering recipe for: molly
+[04:56:14] [Server thread/INFO]: [DrugsV2] Attempting to register recipe for: molly
+[04:56:14] [Server thread/INFO]: [DrugsV2] Loaded 11 drugs
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering cure recipe for: cbd
+[04:56:14] [Server thread/INFO]: [DrugsV2] Registering cure recipe for: suboxone
+[04:56:14] [Server thread/INFO]: [DrugsV2] Tolerance decay now managed by performance optimizer
+[04:56:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: drugs [2.1]
+[04:56:14] [Server thread/INFO]: [DrugsV2] PlaceholderAPI expansion registered successfully!
+[04:56:14] [Server thread/INFO]: [DrugsV2] DrugsV2 enabled!
+[04:56:14] [Server thread/INFO]: [BlockShips] Enabling BlockShips v0.0.17
+[04:56:14] [Server thread/INFO]: [BlockShips] WorldGuard not installed; region protection integration inactive.
+[04:56:15] [Server thread/INFO]: [BlockShips] Loaded block configuration for 607 materials from blocks.yml
+[04:56:15] [Server thread/INFO]: [BlockShips] [ServerVersion] Parsing version: 26.2.build.121-stable
+[04:56:15] [Server thread/INFO]: [BlockShips] [ServerVersion] Detected version: 26.2.0
+[04:56:15] [Server thread/INFO]: [BlockShips] [SteerPacketCompat] Sprint available in STEER_VEHICLE packet (1.21.2+)
+[04:56:15] [Server thread/INFO]: [BlockShips] Using Paper PlayerInputEvent for ship controls (ProtocolLib not required)
+[04:56:15] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : PINK
+[04:56:15] [Server thread/INFO]: [BlockShips] Loaded texture sets: CRATES (13), HULL_PIECES (13), BALLOONS (13), SHIP_WHEEL_SET (2)
+[04:56:15] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:56:15] [Server thread/INFO]: [BlockShips] Loaded prefab ships: smallship (10 blocks), bigship (55 blocks), smallairship (15 blocks)
+[04:56:15] [Server thread/INFO]: [BlockShips] Registered recipes: balloon, ship_wheel, captains_manual, smallship, bigship, smallairship
+[04:56:15] [Server thread/INFO]: [BlockShips] Loaded 0 ship wheels
+[04:56:15] [Server thread/INFO]: [BlockShips] Special drowned spawning enabled.
+[04:56:15] [Server thread/INFO]: [BlockShips] BlockShips enabled.
+[04:56:15] [Server thread/INFO]: [Waystones] Enabling Waystones v2.4.0
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.config.DatabaseModule] Attempting to load database configuration...
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.DatabaseManager] Performing database migrations...
+[04:56:15] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:sqlite:plugins/Waystones/waystones.db (SQLite 3.49)
+[04:56:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 2 migrations (execution time 00:00.017s)
+[04:56:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "main": 20260618120000
+[04:56:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "main" is up to date. No migration necessary.
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.DatabaseManager] No new migrations performed!
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.DatabaseManager] Creating connection to database...
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.DatabaseManager] Connection generated!
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.data.JsonFile] Loading warpnames.json...
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.data.JsonFile] Loaded warpnames.json successfully!
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.data.JsonFile] Loading ratios.json...
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.data.JsonFile] Loaded ratios.json successfully!
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.EventManager] Loading 9 event subscriber(s)...
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.EventManager] Events loaded!
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.CraftingRecipeManager] Loading recipes!
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.CraftingRecipeManager] Recipes loaded!
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading 10 advancements...
+[04:56:15] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:waystones'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:waystones already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:secret_tunnel'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:secret_tunnel already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:blocked'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:blocked already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:i_dont_feel_so_good'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:i_dont_feel_so_good already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:quantum_domestication'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:quantum_domestication already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:heavy_artillery'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:heavy_artillery already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:clean_energy'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:clean_energy already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:121_gigawarps'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:121_gigawarps already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:unlimited_power'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:unlimited_power already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading advancement 'waystones:shoot_the_messenger'
+[04:56:16] [Server thread/WARN]: [xyz.atrius.waystones.manager.AdvancementManager] Failed to load advancement: Advancement waystones:shoot_the_messenger already exists
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.AdvancementManager] Loading complete!
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.CommandManager] Commands loaded!
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.WaystonesInitializer] Waystones loaded!
+[04:56:16] [Server thread/INFO]: [Hammer] Enabling Hammer v1.0.0
+[04:56:16] [Server thread/INFO]: [spark] Starting background profiler...
+[04:56:16] [Server thread/INFO]: [xyz.atrius.waystones.manager.CommandManager] Loading command ws
+[04:56:16] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[04:56:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:56:16] [Server thread/INFO]: [Geyser-Spigot] 
+[04:56:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.3-b1247 (git-master-63a4e2b)
+[04:56:16] [Server thread/INFO]: [Geyser-Spigot] 
+[04:56:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:56:17] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[04:56:17] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[04:56:17] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[04:56:18] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
+[04:56:19] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 14435
+[04:56:19] [Server thread/INFO]: [Geyser-Spigot] Done (2.91s)! Run /geyser help for help!
+[04:56:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:56:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:56:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:56:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:56:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:56:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:56:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:56:19] [Server thread/INFO]: Running delayed init tasks
+[04:56:19] [Server thread/INFO]: Done (29.932s)! For help, type "help"
+[04:56:19] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:56:19] [Server thread/INFO]: [GravesX] Registering Soft Crash Handler...
+[04:56:19] [Server thread/INFO]: [GravesX] Registered Soft Crash Handler. Server will handle crashes in a separate thread. This does not work on hard crashes.
+[04:56:19] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[04:56:20] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 8 builds behind ***
+[04:56:20] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[04:56:26] [User Authenticator #0/INFO]: UUID of player Zairac745 is 9b64c9d9-6d55-31db-98af-a321e5089f12
+[04:56:26] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms]
+[04:56:29] [Server thread/INFO]: [xyz.atrius.waystones.data.CacheDelegate] Cache entry for cachedRelease has expired, updating...
+[04:56:30] [Server thread/INFO]: Zairac745 joined the game
+[04:56:30] [Server thread/INFO]: Zairac745[/127.95.173.11:55199] logged in with entity id 6 at ([minecraft:overworld]4104.391927249463, 130.0, -1489.185516993724)
+[04:56:30] [Folia Async Scheduler Thread #0/WARN]: [GravesX] Unable to check for a GravesX update: latest version is unavailable.
+[04:57:03] [User Authenticator #1/INFO]: UUID of player mrpolla67cm is 422e91b3-b312-3f0c-99dd-31acba6e4d68
+[04:57:04] [Server thread/INFO]: mrpolla67cm joined the game
+[04:57:04] [Server thread/INFO]: mrpolla67cm[/127.17.122.251:57005] logged in with entity id 339 at ([minecraft:overworld]4099.754023800283, 138.0, -1486.9983776878441)
+[04:58:07] [Server thread/INFO]: Zairac745 issued server command: /tab reload
+[04:58:07] [Server thread/INFO]: [TAB] Disabled in 1ms
+[04:58:07] [Server thread/INFO]: [TAB] Enabled in 20ms
+[04:58:36] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username loaiza789001 (2193)
+[04:58:36] [localSession-7-2/INFO]: [Geyser-Spigot] loaiza789001 (logged in as: loaiza789001) has connected to the Java server
+[04:58:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as .loaiza789001 joined (UUID: 00000000-0000-0000-0009-01f7b1854fda)
+[04:58:37] [Server thread/INFO]: .loaiza789001 joined the game
+[04:58:37] [Server thread/INFO]: .loaiza789001[/127.184.214.212:0] logged in with entity id 520 at ([minecraft:overworld]-194.00136, 111.0, -3006.128)
+[04:58:42] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username stevenbl6 (2193)
+[04:58:42] [localSession-7-3/INFO]: [Geyser-Spigot] stevenbl6 (logged in as: stevenbl6) has connected to the Java server
+[04:58:42] [Server thread/INFO]: [floodgate] Floodgate player logged in as .stevenbl6 joined (UUID: 00000000-0000-0000-0009-01fbfce2d181)
+[04:58:42] [Server thread/INFO]: .stevenbl6 joined the game
+[04:58:42] [Server thread/INFO]: .stevenbl6[/127.17.128.175:0] logged in with entity id 788 at ([minecraft:overworld]-207.47551, 91.0, -2830.1914)
+[04:59:32] [Server thread/INFO]: .loaiza789001 was slain by Spider
+[04:59:53] [Server thread/INFO]: Zairac745 issued server command: /clan display modify
+[04:59:56] [Server thread/INFO]: Zairac745 issued server command: /clan display
+[05:00:03] [Server thread/INFO]: Zairac745 issued server command: /clan display Sigma
+[05:00:35] [Server thread/INFO]: Zairac745 issued server command: /cñ
+[05:00:42] [Server thread/INFO]: Zairac745 issued server command: /clan demote
+[05:00:47] [Server thread/INFO]: Zairac745 issued server command: /clan disband
+[05:00:55] [Server thread/INFO]: Zairac745 issued server command: /clan create Sigma
+[05:01:05] [Server thread/INFO]: Zairac745 issued server command: /clan invite send mrpolla67cm
+[05:01:30] [Server thread/INFO]: mrpolla67cm issued server command: /clan invite acep
+[05:01:39] [Server thread/INFO]: Zairac745 issued server command: /clan
+[05:01:42] [Server thread/INFO]: Zairac745 issued server command: /clan info
+[05:01:46] [Server thread/INFO]: Zairac745 issued server command: /clan invite send mrpolla67cm
+[05:02:08] [Server thread/INFO]: mrpolla67cm issued server command: /clan invite accept
+[05:02:15] [Server thread/INFO]: Zairac745 issued server command: /clan invite send mrpolla67cm
+[05:02:29] [Server thread/WARN]: .stevenbl6 moved wrongly!
+[05:02:35] [Server thread/INFO]: mrpolla67cm issued server command: /clan invite accept
+[05:07:26] [Server thread/INFO]: Zairac745 issued server command: /deop Zairac745
+[05:07:26] [Server thread/INFO]: [Zairac745: Made Zairac745 no longer a server operator]
+[05:07:38] [Server thread/INFO]: Zairac745 issued server command: /cl trust mrpolla67cm
+[05:07:38] [Server thread/INFO]: [ChestLockLite] Added trusted player: mrpolla67cm for chest at world 4025,88,-1541
+[05:11:19] [User Authenticator #2/INFO]: UUID of player mrpolla67cm is 422e91b3-b312-3f0c-99dd-31acba6e4d68
+[05:11:19] [Server thread/INFO]: mrpolla67cm lost connection: You logged in from another location
+[05:11:19] [Server thread/INFO]: mrpolla67cm left the game
+[05:11:20] [Server thread/INFO]: mrpolla67cm joined the game
+[05:11:20] [Server thread/INFO]: mrpolla67cm[/127.17.122.251:59893] logged in with entity id 4659 at ([minecraft:overworld]4106.659466313655, 124.0, -1489.9320784057184)
+[05:11:52] [Server thread/INFO]: mrpolla67cm was kicked due to keepalive timeout!
+[05:11:52] [Server thread/INFO]: mrpolla67cm lost connection: Timed out
+[05:11:52] [Server thread/INFO]: mrpolla67cm left the game
+[05:12:10] [Server thread/INFO]: [BlockShips] [AttributeCompat] Initializing attribute compatibility layer...
+[05:12:10] [Server thread/INFO]: [BlockShips] [AttributeCompat] Resolved 'max_health' via Registry.ATTRIBUTE.get()
+[05:12:10] [Server thread/INFO]: [BlockShips] [AttributeCompat] MAX_HEALTH resolved successfully
+[05:12:10] [Server thread/INFO]: [BlockShips] [AttributeCompat] Resolved 'scale' via Registry.ATTRIBUTE.get()
+[05:12:10] [Server thread/INFO]: [BlockShips] [AttributeCompat] SCALE resolved successfully
+[05:12:10] [Server thread/INFO]: [BlockShips] [AttributeCompat] Resolved 'camera_distance' via Registry.ATTRIBUTE.get()
+[05:12:10] [Server thread/INFO]: [BlockShips] [AttributeCompat] CAMERA_DISTANCE resolved successfully
+[05:12:10] [Server thread/INFO]: [BlockShips] [TeleportCompat] Version has native passenger teleport support
+[05:12:11] [Server thread/WARN]: [BlockShips] [PositionSync] Vehicle position sync unavailable: com.comphenix.protocol.ProtocolLibrary
+[05:13:59] [User Authenticator #3/INFO]: UUID of player mrpolla67cm is 422e91b3-b312-3f0c-99dd-31acba6e4d68
+[05:13:59] [Server thread/INFO]: mrpolla67cm joined the game
+[05:13:59] [Server thread/INFO]: mrpolla67cm[/127.17.122.251:51553] logged in with entity id 5658 at ([minecraft:overworld]4106.659466313655, 124.0, -1489.9320784057184)
+[05:22:23] [Server thread/INFO]: .loaiza789001 was blown up by Creeper
+[05:24:27] [Server thread/INFO]: .loaiza789001 was shot by Skeleton
+[05:25:21] [Server thread/INFO]: .loaiza789001 hit the ground too hard while trying to escape Skeleton
+[05:25:43] [Server thread/INFO]: Villager Villager['Villager'/5464, uuid='affe418f-a7ba-4f5d-a09b-464df5a823c1', l='ServerLevel[world]', x=-176.54, y=102.56, z=-3028.49, cpos=[-12, -190], tl=14912, v=true] died, message: 'Villager suffocated in a wall'
+[05:26:01] [User Authenticator #4/INFO]: UUID of player S__rv24 is 19934a60-97aa-3fec-a898-c8801cc0d78f
+[05:26:01] [Server thread/INFO]: S__rv24 joined the game
+[05:26:01] [Server thread/INFO]: S__rv24[/127.234.23.32:40797] logged in with entity id 10811 at ([minecraft:overworld]-1344.1150352173247, 64.0, -948.4258664605076)
+[05:32:33] [Server thread/INFO]: .loaiza789001 was shot by Skeleton
+[05:47:15] [Server thread/INFO]: .loaiza789001 was doomed to fall by .stevenbl6
+[05:48:14] [Server thread/INFO]: [ChestLockLite] Lock removed at world 4110,130,-1485
+[05:48:14] [Server thread/INFO]: [ChestLockLite] Lock removed from database: Owner mrpolla67cm broke chest at world 4110,130,-1485
+[05:49:03] [Server thread/INFO]: .loaiza789001 was shot by Pillager
+[05:52:22] [Server thread/INFO]: .loaiza789001 fell from a high place
+[05:52:43] [Server thread/INFO]: Zairac745 lost connection: Disconnected
+[05:52:43] [Server thread/INFO]: Zairac745 left the game
+[05:53:42] [Server thread/WARN]: .loaiza789001 was kicked for floating too long!
+[05:53:42] [localSession-7-2/INFO]: [Geyser-Spigot] loaiza789001 has disconnected from the Java server because of §rFlying is not enabled on this server
+[05:53:42] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .loaiza789001 disconnected
+[05:53:42] [Server thread/INFO]: .loaiza789001 lost connection: Flying is not enabled on this server
+[05:53:42] [Server thread/INFO]: .loaiza789001 left the game
+[05:54:13] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username loaiza789001 (2193)
+[05:54:13] [localSession-7-4/INFO]: [Geyser-Spigot] loaiza789001 (logged in as: loaiza789001) has connected to the Java server
+[05:54:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as .loaiza789001 joined (UUID: 00000000-0000-0000-0009-01f7b1854fda)
+[05:54:14] [Server thread/INFO]: .loaiza789001 joined the game
+[05:54:14] [Server thread/INFO]: .loaiza789001[/127.184.214.212:0] logged in with entity id 26996 at ([minecraft:overworld]-131.96735, 73.16611, -2799.4033)
+[05:56:12] [Server thread/INFO]: S__rv24 lost connection: Disconnected
+[05:56:13] [Server thread/INFO]: S__rv24 left the game
+[06:03:03] [Server thread/INFO]: Villager Villager['Villager'/635, uuid='8938277b-2598-4743-98c9-40207bb18bfe', l='ServerLevel[world]', x=-176.53, y=102.56, z=-3023.49, cpos=[-12, -189], tl=74893, v=true] died, message: 'Villager was slain by Zombie'
+[06:03:05] [Server thread/INFO]: .loaiza789001 has made the advancement [Take Aim]
+[06:03:07] [Server thread/INFO]: Villager Villager['Villager'/636, uuid='aa3e33c2-f6bb-4b59-9a18-2f99785306ff', l='ServerLevel[world]', x=-176.64, y=102.56, z=-3024.70, cpos=[-12, -190], tl=74934, v=true] died, message: 'Villager was slain by Zombie'
+[06:05:04] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] loaiza789001 has disconnected from the Java server because of §rBedrock client timed out
+[06:05:04] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .loaiza789001 disconnected
+[06:05:04] [Server thread/INFO]: .loaiza789001 lost connection: Disconnected
+[06:05:04] [Server thread/INFO]: .loaiza789001 left the game
+[06:05:12] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Player connected with username loaiza789001 (2193)
+[06:05:12] [localSession-7-1/INFO]: [Geyser-Spigot] loaiza789001 (logged in as: loaiza789001) has connected to the Java server
+[06:05:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as .loaiza789001 joined (UUID: 00000000-0000-0000-0009-01f7b1854fda)
+[06:05:12] [Server thread/INFO]: .loaiza789001 joined the game
+[06:05:12] [Server thread/INFO]: .loaiza789001[/127.184.214.212:0] logged in with entity id 29733 at ([minecraft:overworld]-147.72499, 110.5, -3039.3171)
